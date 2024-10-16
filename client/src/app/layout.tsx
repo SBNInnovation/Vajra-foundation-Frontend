@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { Provider } from "@/providers/providers";
 import Head  from "next/head";
 import Navbar from "@/shared/Navbar";
 import { Poppins } from 'next/font/google';
+import Footer from "@/shared/Footer/Footer";
 
 
 const poppins = Poppins({
@@ -38,6 +38,7 @@ export default function RootLayout({
         <Provider>
           <Navbar/>
           {children}
+          <Footer/>
         </Provider>
       </body>
     </html>

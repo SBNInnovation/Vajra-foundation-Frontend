@@ -6,6 +6,7 @@ import { RiTwitterXLine } from 'react-icons/ri'
 import Intro from './Intro'
 import Cause from './Cause'
 import Impact from './Impact'
+import Success from './Success'
 
 const MainHome = () => {
   return (
@@ -20,7 +21,7 @@ const MainHome = () => {
                 <div className='mt-6 flex self-start w-full'>
                   <SharedTitle title='Looking out for those in need'/>
                 </div>
-                <p className='w-full'>Join us in creating lasting impact through education, health, and sustainable development. Together, we can build a brighter future for those in need.</p>
+                <p className='w-full text-lg'>Join us in creating lasting impact through education, health, and sustainable development. Together, we can build a brighter future for those in need.</p>
                 <Button className='rounded-sm text-white bg-primary w-2/5 flex self-start py-6 mt-8'>Donate for a cause</Button>
                 <div className='flex items-center justify-start self-start gap-10 mt-12'>
                   <Button isIconOnly className='rounded-md border-2 border-white bg-transparent text-white'><FaFacebookF/></Button>
@@ -33,6 +34,7 @@ const MainHome = () => {
       <Intro/>
       <Cause/>
       <Impact/>
+      <Success/>
     </>
   )
 }

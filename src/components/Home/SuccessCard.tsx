@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import SharedTitle from '@/shared/SharedTitle'
 import { Button } from '@nextui-org/react'
+import { FaArrowRight } from 'react-icons/fa'
 
 interface CardProps {
     title: string
@@ -23,7 +24,18 @@ const SuccessCard: React.FC<CardProps> = ({ title, description, image, category 
                 <div className='px-6 py-4 bg-white'>
                     <h1 className='font-semibold text-lg mb-2'>{title}</h1>
                     <p className='text-justify text-xs'>{description}</p>
-                    <Button size='sm' className='shadow-sm bg-primary text-xs px-12 rounded-md text-white my-4'>View Details</Button>
+                    <div className="group w-fit my-4">
+                    <Button 
+                        size='sm'
+                        endContent={
+                        <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
+                        } 
+                        className='rounded-sm bg-primary px-8 my-2 text-white flex items-center' 
+                        aria-label="Details"
+                    >
+                        Read Details
+                    </Button>
+                </div>
                 </div>
             </div>
         </section>

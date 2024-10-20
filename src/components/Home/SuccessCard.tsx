@@ -21,7 +21,7 @@ const SuccessCard: React.FC<CardProps> = ({ title, description, image, category 
                 <div className='bg-white rounded-sm shadow-md px-8 py-0'>
                     <SharedTitle title={category}/>
                 </div>
-                <div className='px-6 py-4 bg-white'>
+                <div className='relative px-6 py-4 bg-white'>
                     <h1 className='font-semibold text-lg mb-2'>{title}</h1>
                     <p className='text-justify text-xs'>{description}</p>
                     <div className="group w-fit my-4">
@@ -30,7 +30,7 @@ const SuccessCard: React.FC<CardProps> = ({ title, description, image, category 
                         endContent={
                         <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
                         } 
-                        className='rounded-sm bg-primary px-8 my-2 text-white flex items-center' 
+                        className='relative rounded-sm -mb-4 bg-primary px-8 text-white flex items-center' 
                         aria-label="Details"
                     >
                         Read Details

@@ -9,7 +9,7 @@ import CountUp from 'react-countup'
 
 const Impact = () => {
     return (
-        <div className='bg-[#F5FAF1] h-[90vh] px-16 py-12 w-full flex items-center justify-start flex-col'>
+        <div className='bg-[#F5FAF1] px-16 py-12 w-full flex items-center justify-start flex-col'>
             <div className='flex items-center justify-center'>
                 <SharedTitle title='Every small impact matters' />
             </div>

@@ -2,6 +2,7 @@ import LineDot from '@/shared/LineDot/LineDot'
 import SharedTitle from '@/shared/SharedTitle'
 import React from 'react'
 import { FaHandsHelping, FaDonate, FaTasks, FaRegChartBar } from 'react-icons/fa';
+import AboutSlider from './AboutSlider';
 
 const ABoutUs = () => {
     const timelineData = [
@@ -75,7 +76,7 @@ const ABoutUs = () => {
                         <time className="block mb-2 text-sm font-normal text-gray-400 dark:text-gray-500">
                             {item.date}
                         </time>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400 text-justify">
+                        <p className="text-base font-normal text-gray-800 dark:text-gray-400 text-justify">
                             {item.description}
                         </p>
                         </div>
@@ -85,9 +86,7 @@ const ABoutUs = () => {
                 </ol>
             </div>
         </div>
-        <div>
-            
-        </div>
+        <AboutSlider/>
         </>
     )
 }

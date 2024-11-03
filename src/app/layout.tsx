@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-[#fafafa]">
+    <html lang="en" className="bg-[#F5FAF1]">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta charSet="UTF-8" />
@@ -33,7 +33,7 @@ export default function RootLayout({
         <title>Going Nepal Adventure</title>
       </Head>
       <body
-        className={`${poppins.className} antialiased bg-[#fafafa] text-black`}
+        className={`${poppins.className} antialiased bg-[#F5FAF1] text-black`}
       >
         <Provider>
           <Navbar/>

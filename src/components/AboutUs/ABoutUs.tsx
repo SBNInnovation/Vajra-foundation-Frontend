@@ -3,6 +3,8 @@ import SharedTitle from '@/shared/SharedTitle'
 import React from 'react'
 import { FaHandsHelping, FaDonate, FaTasks, FaRegChartBar } from 'react-icons/fa';
 import AboutSlider from './AboutSlider';
+import Image from 'next/image';
+import { Button } from '@nextui-org/react';
 
 const ABoutUs = () => {
     const timelineData = [
@@ -87,6 +89,65 @@ const ABoutUs = () => {
             </div>
         </div>
         <AboutSlider/>
+        <div className="w-full my-20 mt-32 flex justify-center relative px-16">
+                <div className="relative w-full h-[600px] mb-12 flex gap-12">
+                    
+                    <div className="w-1/2">
+                        <div className='w-full h-[200px] mb-12'>
+                            <Image 
+                                src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt='Help' 
+                                height={1000} 
+                                width={1000} 
+                                className='object-cover h-full w-full rounded-sm shadow-md'
+                            />
+                        </div>
+                        <SharedTitle title="Our Mission" />
+                        <h1 className="text-3xl font-semibold tracking-wide">What we aim for?</h1>
+                        <div className="w-4/5">
+                            <LineDot />
+                        </div>
+                        <p className="text-justify my-8 text-gray-700">
+                            Our mission is to drive meaningful change by empowering communities through health, education, and environmental initiatives. We believe in sustainable development, where everyone has access to essential resources, quality education, and a clean, safe environment. Guided by compassion and commitment, we work alongside local leaders and global partners to address pressing challenges and foster resilience. Through targeted programs and dedicated support, we aim to uplift lives and create a future where communities can thrive with dignity and opportunity.
+                        </p>
+                    </div>
+
+                    <div className="w-1/2">
+                        <SharedTitle title="Our Story" />
+                        <h1 className="text-3xl font-semibold tracking-wide">Our Story</h1>
+                        <div className="w-4/5">
+                            <LineDot />
+                        </div>
+                        <p className="text-justify my-8 text-gray-700">
+                            Our story began with a vision to create lasting change and uplift communities in need. Driven by a deep commitment to addressing issues in health, education, and the environment, our founders embarked on a journey to bridge gaps and bring sustainable solutions to vulnerable populations. Over the years, we have grown into a dedicated team of changemakers, partnering with local leaders and global supporters to reach those who need it most. Every step of our journey is inspired by the people we serve, and we remain dedicated to building a brighter, healthier, and more equitable world for all.
+                        </p>
+                        <div className='w-full h-[200px]'>
+                            <Image 
+                                src="/help.avif" 
+                                alt='Help' 
+                                height={1000} 
+                                width={1000} 
+                                className='object-cover h-full w-full rounded-sm shadow-md'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div className='h-[400px] relative mb-12 mx-16 rounded-md' style={{backgroundImage:"url('https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+                <div className='absolute inset-0 bg-black/50 rounded-md'></div>
+                <div className='z-[100] absolute w-full h-fit my-12  flex flex-col items-center justify-center'>
+                    <h1 className="text-5xl font-bold text-white tracking-wide">Make a difference today</h1>
+                    <p className='text-justify my-8 text-white w-3/4'>Your support has the power to change lives and uplift communities. By contributing, you&apos;re not just giving resources; you&apos;re giving hope, health, and opportunity to those who need it most. Our organization is committed to using every donation to make a tangible impact, funding essential projects in healthcare, education, and environmental preservation. Whether it&apos;s providing meals to families, enabling education for children, or supporting sustainable practices, your generosity fuels positive change.
+
+                    Every gift, no matter the size, is a step toward a brighter, more equitable future. Join us in our mission to create lasting change—donate today and become part of a global community dedicated to a better tomorrow.
+                    </p>
+                    <Button className='rounded-sm text-white bg-primary px-16'>Donate Now</Button>
+
+                </div>
+            </div>
+
+
         </>
     )
 }

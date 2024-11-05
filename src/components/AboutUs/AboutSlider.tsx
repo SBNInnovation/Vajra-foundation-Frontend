@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import Slider, { CustomArrowProps } from 'react-slick';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface CustomArrowComponentProps extends CustomArrowProps {
     onClick?: () => void;
@@ -89,16 +90,21 @@ const AboutSlider = () => {
             <div className='w-1/5'>
                 <LineDot/>
             </div>
-            <section className='flex gap-4 items-start w-full my-12'>
-                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-sm p-4'>
-                    
+            <section className='flex gap-4 items-start w-full mt-12 mb-8'>
+                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+                    <SharedTitle title='National Members'/>
+                    <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
+                    <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
+                    <Link href='/contact-us'>
+                        <Button size='sm' className='text-xs rounded-sm bg-primary px-8 my-2 mb-4 text-white '>Reach Now</Button>
+                    </Link>
                 </div>
                 <div className='w-2/3'>
                     <div className="relative w-full">
                         <Slider {...settings}>
                             {national.map((item, index) => (
                                 <div key={index} className="px-2">
-                                    <div className="h-[300px]">
+                                    <div className="h-[300px] relative">
                                         <Image 
                                             src={item.img} 
                                             height={1000} 
@@ -106,6 +112,73 @@ const AboutSlider = () => {
                                             alt={item.title}
                                             className='w-full h-full object-cover rounded-sm' 
                                         />
+                                        <div className='absolute z-[100] bottom-0 w-full text-white bg-black/80 px-6 py-2 '>
+                                            <h1>{item.title}</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </section>
+            <section className='flex gap-4 items-start w-full my-8'>
+                <div className='w-2/3'>
+                    <div className="relative w-full">
+                        <Slider {...settings}>
+                            {national.map((item, index) => (
+                                <div key={index} className="px-2">
+                                    <div className="h-[300px] relative">
+                                        <Image 
+                                            src={item.img} 
+                                            height={1000} 
+                                            width={1000} 
+                                            alt={item.title}
+                                            className='w-full h-full object-cover rounded-sm' 
+                                        />
+                                        <div className='absolute z-[100] bottom-0 w-full text-white bg-black/80 px-6 py-2 '>
+                                            <h1>{item.title}</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+                    <SharedTitle title='International Members'/>
+                    <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
+                    <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
+                    <Link href='/contact-us'>
+                        <Button size='sm' className='text-xs rounded-sm bg-primary px-8 my-2 mb-4 text-white '>Reach Now</Button>
+                    </Link>
+                </div>
+            </section>
+            <section className='flex gap-4 items-start w-full my-8'>
+                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+                    <SharedTitle title='Volunteers'/>
+                    <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
+                    <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
+                    <Link href='/contact-us'>
+                        <Button size='sm' className='text-xs rounded-sm bg-primary px-8 my-2 mb-4 text-white '>Reach Now</Button>
+                    </Link>
+                </div>
+                <div className='w-2/3'>
+                    <div className="relative w-full">
+                        <Slider {...settings}>
+                            {national.map((item, index) => (
+                                <div key={index} className="px-2">
+                                    <div className="h-[300px] relative">
+                                        <Image 
+                                            src={item.img} 
+                                            height={1000} 
+                                            width={1000} 
+                                            alt={item.title}
+                                            className='w-full h-full object-cover rounded-sm' 
+                                        />
+                                        <div className='absolute z-[100] bottom-0 w-full text-white bg-black/80 px-6 py-2 '>
+                                            <h1>{item.title}</h1>
+                                        </div>
                                     </div>
                                 </div>
                             ))}

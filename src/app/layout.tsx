@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Provider } from "@/providers/providers";
-import Head  from "next/head";
 import Navbar from "@/shared/Navbar";
 import { Poppins } from 'next/font/google';
 import Footer from "@/shared/Footer/Footer";
@@ -25,13 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-[#F5FAF1]">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Going Nepal Adventure" />
-        <title>Going Nepal Adventure</title>
-      </Head>
       <body
         className={`${poppins.className} antialiased bg-[#F5FAF1] text-black`}
       >

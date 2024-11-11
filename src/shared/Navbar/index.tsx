@@ -8,7 +8,7 @@ const Navbar = () => {
     const nav = [
         { title: "Home", link: "/" },
         { title: "Programs", link: "/programs",isDropdown:true },
-        { title: "Objectives", link: "/objectives" },
+        { title: "Success Stories", link: "/success-stories" },
         { title: "About Us", link: "/about-us" },
         { title: "Contact Us", link: "/contact-us" }
     ];

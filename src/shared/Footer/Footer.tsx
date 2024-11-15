@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'next/link' // Import Link from Next.js
+import Link from 'next/link'
+import Image from 'next/image'
 import SharedTitle from '../SharedTitle'
 import LineDot from '../LineDot/LineDot'
 import { Button, Divider } from '@nextui-org/react'
@@ -38,7 +39,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='size-[5rem] my-12 bg-gray-400 rounded-full'></div>
+                <div className='h-20 mt-20 w-32 mb-4 bg-gray-400 rounded-full'>
+                        <Image src="/vajra.png" alt='logo' height={1000} width={1000} className='object-cover h-full w-full'/>
+                </div>
 
                 <p className='italic font-semibold my-4 text-xl'>&quot;The true measure of any society is how it treats its most vulnerable members.&quot; — Mahatma Gandhi</p>
 

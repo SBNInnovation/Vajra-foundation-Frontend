@@ -3,6 +3,7 @@ import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Link } f
 import { usePathname } from 'next/navigation';
 import React from 'react'
 import { IoMdArrowDropdown } from 'react-icons/io';
+import Image from 'next/image';
 
 const Navbar = () => {
     const nav = [
@@ -19,8 +20,8 @@ const Navbar = () => {
         <main className='w-full bg-transparent fixed z-[99999] flex items-center justify-center'>
             <section className='w-[98%] rounded-md flex bg-white mt-2 items-center justify-between px-12 py-4  relative shadow-md'>
                 <section className='flex gap-12 items-center'>
-                    <div className='size-4 bg-gray-400 rounded-full'>
-
+                    <div className='h-12 w-20 bg-gray-400 rounded-full'>
+                        <Image src="/vajra.png" alt='logo' height={1000} width={1000} className='object-cover h-full w-full'/>
                     </div>
                     <section className='flex items-center gap-8 text-base font-semibold h-full'>
                         {nav.map((item, index) => (

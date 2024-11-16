@@ -1,6 +1,7 @@
 import LineDot from '@/shared/LineDot/LineDot'
 import SharedTitle from '@/shared/SharedTitle'
 import React from 'react'
+import Success from './Success'
 
 const SuccessStories = () => {
     return (
@@ -26,6 +27,7 @@ From providing life-saving healthcare services to those who previously had no ac
 Our success stories are more than just a reflection of what we&apos;ve accomplished—they are an invitation. They inspire others to take action, to believe in the power of giving, and to understand that together, we can create a ripple effect of positive change. As we continue our journey, we carry these stories with us, knowing that they will inspire generations to come and motivate us to keep pushing for a future where every community has the chance to thrive.
             </p>
         </div>
+        <Success/>
         </>
     )
 }

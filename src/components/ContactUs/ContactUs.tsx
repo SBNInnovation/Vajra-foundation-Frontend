@@ -24,17 +24,17 @@ const ContactUs = () => {
                             <div className='flex items-center gap-2'>
                                 <IoMdCall size={20}/>
                                 <div className='bg-black h-[.5px] w-4'></div>
-                                <p className='tracking-wide'>+977-1-4519145 / 1-4517230</p>
+                                <p className='tracking-wide'>+977-9851109856</p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <IoMdMail size={20}/>
                                 <div className='bg-black h-[.5px] w-4'></div>
-                                <p className='tracking-wide'>info@goingnepal.com / goingnepal@gmail.com</p>
+                                <p className='tracking-wide'>vajrafoundationnepal@gmail.com</p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <CiLocationOn size={20}/>
                                 <div className='bg-black h-[.5px] w-4'></div>
-                                <p className='tracking-wide'>(9:00am - 05:00pm office hour)</p>
+                                <p className='tracking-wide'>Jharuwarasi, Godawari-13</p>
                             </div>
                         </div>
                     </section>
@@ -91,7 +91,7 @@ const ContactUs = () => {
                     <LineDot className='justify-center my-8'/>
                 </div>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.9927385581045!2d85.32190857546776!3d27.717510476176777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19da434dc251%3A0x9f38fff86882064b!2sGoing%20Nepal%20Pvt%20Ltd%2C%20Tailor-Made%20Luxury%20DMC!5e0!3m2!1sen!2snp!4v1728413039018!5m2!1sen!2snp"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.5795352499845!2d85.33148757546383!3d27.606562476240452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb16de000dc613%3A0xbd428904f1385551!2sVajra%20Academy!5e0!3m2!1sen!2snp!4v1732901280821!5m2!1sen!2snp"
                     width="100%"
                     height="100%"
                     allowFullScreen

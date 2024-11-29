@@ -5,6 +5,7 @@ import { FaHandsHelping, FaDonate, FaTasks, FaRegChartBar } from 'react-icons/fa
 import AboutSlider from './AboutSlider';
 import Image from 'next/image';
 import { Button } from '@nextui-org/react';
+import Link from 'next/link';
 
 const ABoutUs = () => {
     const timelineData = [
@@ -142,7 +143,9 @@ const ABoutUs = () => {
 
                     Every gift, no matter the size, is a step toward a brighter, more equitable future. Join us in our mission to create lasting change—donate today and become part of a global community dedicated to a better tomorrow.
                     </p>
-                    <Button className='rounded-sm text-white bg-primary px-16'>Donate Now</Button>
+                    <Link href="/donation">
+                        <Button className='rounded-sm text-white bg-primary px-16'>Donate Now</Button>
+                    </Link>
 
                 </div>
             </div>

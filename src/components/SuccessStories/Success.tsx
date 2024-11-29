@@ -57,7 +57,7 @@ const Success = () => {
     <div className='w-full px-24'>
         <div className="flex flex-col gap-5">
             <Pagination
-                total={10}
+                total={2}
                 page={currentPage}
                 onChange={setCurrentPage}
             />

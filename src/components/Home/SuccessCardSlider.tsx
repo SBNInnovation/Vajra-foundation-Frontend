@@ -88,10 +88,10 @@ const SuccessCardSlider: React.FC = () => {
     ]
 
     return (
-        <div className="relative px-12 py-8">
-            <Slider {...settings} className='pr-12 pl-16'>
+        <div className="relative lg:px-12 px-4 py-8">
+            <Slider {...settings} className='lg:pr-12 pr-4 lg:pl-16 pl-4'>
                 {successStories.map((item, index) => (
-                    <div className='px-8' key={index}>
+                    <div className='lg:px-8 px-4' key={index}>
                         <SuccessCard  {...item} />
                     </div>
                 ))}

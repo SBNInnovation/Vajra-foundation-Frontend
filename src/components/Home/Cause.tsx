@@ -21,41 +21,41 @@ const Cause = () => {
     }
 
     return (
-        <main className='w-full relative px-16 py-8 h-auto flex items-start justify-center gap-16 bg-[#F5FAF1]'>
-            <div className='w-2/5 h-[700px]'>
+        <main className='w-full relative lg:px-16 px-4 py-8 h-auto flex flex-col-reverse lg:flex-row items-start justify-center gap-16 bg-[#F5FAF1]'>
+            <div className='lg:w-2/5 w-full lg:h-[700px] h-[400px] lg:flex hidden'>
                 <Image src={"/medical.avif"} alt='Cause' height={1000} width={1000} className='object-cover h-full w-full rounded-sm shadow-md'/>
             </div>
-            <div className='w-3/5 z-[100] relative'>
+            <div className='lg:w-3/5 w-full relative'>
                 <SharedTitle title='A Help to those who need it'/>
                 <h1 className='font-semibold text-3xl tracking-wide'>Our Initiatives </h1>
-                <div className='w-2/5'>
+                <div className='lg:w-2/5 w-full'>
                     <LineDot/>
                 </div>
-                <p className='text-gray-700 text-justify my-4'>
+                <p className='text-gray-700 lg:text-base text-sm text-justify my-4'>
                     At our NGO, we are committed to fostering positive change in communities by focusing on three critical areas: health, education, and the environment. Through targeted programs and collaborative efforts, we strive to empower individuals and promote sustainable development, ensuring a brighter future for all.
                 </p>
 
-                <div className='flex flex-col gap-2'>
+                <div className='flex items-center flex-col gap-4 '>
                     <div className='flex gap-2 items-start'>
                         <div className='flex gap-2 items-center'>
                             <DiDotnet className='text-primary' size={20} />
                             <span className='font-semibold'>Health:</span>
                         </div>
-                        <p className='text-gray-700'>Providing essential healthcare services and education to enhance community well-being.</p>
+                        <p className='text-gray-700 lg:text-base text-sm text-justify'>Providing essential healthcare services and education to enhance community well-being.</p>
                     </div>
                     <div className='flex gap-2 items-start'>
                         <div className='flex gap-2 items-center'>
                             <DiDotnet className='text-primary' size={20} />
                             <span className='font-semibold'>Education:</span>
                         </div>
-                        <p className='text-gray-700'>Offering scholarships and training to improve access and empower individuals with knowledge.</p>
+                        <p className='text-gray-700 lg:text-base text-sm text-justify'>Offering scholarships and training to improve access and empower individuals with knowledge.</p>
                     </div>
                     <div className='flex gap-2 items-start'>
                         <div className='flex gap-2 items-center'>
                             <DiDotnet className='text-primary' size={20} />
                             <span className='font-semibold'>Environment:</span>
                         </div>
-                        <p className='text-gray-700'>Promoting sustainable practices and conservation efforts to protect natural resources.</p>
+                        <p className='text-gray-700 lg:text-base text-sm text-justify'>Promoting sustainable practices and conservation efforts to protect natural resources.</p>
                     </div>
                 </div>
 
@@ -72,10 +72,10 @@ const Cause = () => {
                 </div>
 
                 {/* Image grid that fades in */}
-                <div ref={ref} className='flex absolute gap-10 items-center my-8'>
+                <div ref={ref} className='grid grid-cols-2 lg:grid-cols-4 gap-10 items-center lg:my-8 mt-8'>
                     {/* Education image */}
                     <motion.div 
-                        className='relative w-1/4 h-[10rem] group cursor-pointer'
+                        className='relative w-full h-[10rem] group cursor-pointer'
                         variants={imageVariants}
                         initial='hidden'
                         animate={inView ? 'visible' : 'hidden'}
@@ -89,7 +89,7 @@ const Cause = () => {
 
                     {/* Health image */}
                     <motion.div 
-                        className='relative w-1/4 h-[10rem] group cursor-pointer'
+                        className='relative w-full h-[10rem] group cursor-pointer'
                         variants={imageVariants}
                         initial='hidden'
                         animate={inView ? 'visible' : 'hidden'}
@@ -103,7 +103,7 @@ const Cause = () => {
 
                     {/* Environment image */}
                     <motion.div 
-                        className='relative w-1/4 h-[10rem] group cursor-pointer'
+                        className='relative w-full h-[10rem] group cursor-pointer'
                         variants={imageVariants}
                         initial='hidden'
                         animate={inView ? 'visible' : 'hidden'}
@@ -117,7 +117,7 @@ const Cause = () => {
 
                     {/* Second health image */}
                     <motion.div 
-                        className='relative w-1/4 h-[10rem] group cursor-pointer'
+                        className='relative w-full h-[10rem] group cursor-pointer'
                         variants={imageVariants}
                         initial='hidden'
                         animate={inView ? 'visible' : 'hidden'}

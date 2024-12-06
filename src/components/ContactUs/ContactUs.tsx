@@ -10,14 +10,14 @@ import { IoMdCall, IoMdMail } from 'react-icons/io'
 const ContactUs = () => {
     return (
         <>
-            <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/help.avif')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"contain"}}>
+            <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/help.avif')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
-                <h1 className='text-white font-bold text-6xl z-[99]'>Our Contacts</h1>   
+                <h1 className='text-white font-bold lg:text-6xl text-4xl z-[99]'>Our Contacts</h1>   
             </div>
-            <section className='flex px-16 items-start justify-center gap-12 w-full my-12'>
-                <div className='py-12 w-1/2 flex flex-col gap-4'>
+            <section className='flex lg:flex-row flex-col lg:px-16 px-4 items-start justify-center lg:gap-12 -gap-4 w-full lg:my-12 my-0'>
+                <div className='py-12 lg:w-1/2 w-full flex flex-col gap-4'>
                     <SharedTitle title='Get in touch with us'/>
-                    <h1 className='font-bold text-5xl'>Contact Us for any inquiry !</h1>
+                    <h1 className='font-bold lg:text-5xl text-3xl'>Contact Us for any inquiry !</h1>
                     <p className='text-gray-700 text-justify'>We&apos;re here to answer any questions or provide more information about our work. Whether you prefer to reach out via phone or email, our team is available and ready to assist you. You can find our contact details above. If you&apos;d like to meet in person, feel free to visit us at our office location provided below. We look forward to hearing from you and are happy to help in any way we can.</p>
                     <section className='flex flex-col gap-4 font-semibold mt-4'>
                         <div className='flex flex-col gap-6 px-2'>
@@ -39,10 +39,10 @@ const ContactUs = () => {
                         </div>
                     </section>
                 </div>
-                <div className='flex flex-col py-12 w-1/2 items-center justify-center'>
+                <div className='flex flex-col py-12 lg:w-1/2 w-full items-center justify-center'>
                         <h1 className={`font-semibold text-2xl tracking-wider`}>Send us a message</h1>
                         <LineDot className='justify-center'/>
-                        <form action="" className='flex flex-col gap-8 mt-4 w-full px-8 text-black'>
+                        <form action="" className='flex flex-col gap-8 mt-4 w-full lg:px-8 px-0 text-black'>
                             <Input 
                             classNames={{
                                     label: "text-black",
@@ -82,7 +82,7 @@ const ContactUs = () => {
                 </div>
             </section>
 
-            <div className="w-full h-[100vh] my-8 -mt-4 flex items-center justify-center flex-col">
+            <div className="w-full lg:h-[100vh] h-[80vh] my-8 -mt-4 flex items-center justify-center flex-col">
                 <div className='flex items-center justify-center'>
                     <SharedTitle title='On site'/>
                 </div>

@@ -14,7 +14,7 @@ const Health = () => {
             <div className='w-fit'>
                 <SharedTitle title='Real stories, real change'/>
             </div>
-            <h1 className='text-2xl sm:text-3xl md:text-4xl tracking-wide leading-8 text-center'>Our success stories</h1>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl tracking-wide leading-8 text-center'>Health</h1>
             <div className='w-3/5'>
                 <LineDot className='justify-center'/>
             </div>

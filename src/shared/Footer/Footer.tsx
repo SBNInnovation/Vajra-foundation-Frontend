@@ -77,7 +77,7 @@ const Footer = () => {
                         <h3 className='font-semibold text-lg mb-4'>Quick Links</h3>
                         <Link href='/' className='text-sm hover:underline py-1'>Home</Link>
                         <Link href='/programs' className='text-sm hover:underline py-1'>Programs</Link>
-                        <Link href='/success-stories' className='text-sm hover:underline py-1'>Success Stories</Link>
+                        <Link href='/privacy-policy' className='text-sm hover:underline py-1'>Privacy Policy</Link>
                         <Link href='/about-us' className='text-sm hover:underline py-1'>About Us</Link>
                         <Link href='/contact-us' className='text-sm hover:underline py-1'>Contact Us</Link>
                     </div>

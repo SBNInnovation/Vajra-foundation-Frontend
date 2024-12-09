@@ -22,7 +22,11 @@ const Navbar = () => {
             ] 
         },
         { title: "About Us", link: "/about-us" },
-        { title: "Contact Us", link: "/contact-us" }
+        { title: "Resources", link: "/resources",isDropDown:true,
+            items: [
+            { title: "Privacy Policy", href: "/privacy-policy" },
+            { title: "Contact Us", href: "/contact-us" },
+        ]}
     ];
     const pathname = usePathname();
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -127,7 +131,7 @@ const Navbar = () => {
     return (
         <>
             {/* Desktop Navbar */}
-            <main className='w-full bg-transparent fixed z-[9] flex items-center justify-center'>
+            <main className='w-full bg-transparent fixed z-[9999] flex items-center justify-center'>
                 <section className='w-[98%] rounded-md flex bg-white mt-2 items-center justify-between px-4 lg:px-12 py-4 relative shadow-md'>
                     <section className='flex gap-12 items-center'>
                         <div className='lg:h-12 h-8 lg:w-40 w-28 bg-gray-400 rounded-full'>
@@ -158,7 +162,7 @@ const Navbar = () => {
 
                     {/* Mobile Hamburger */}
                     <button 
-                        className='md:hidden z-[100] text-2xl'
+                        className='md:hidden z-[100] text-2xl z-[99999'
                         onClick={toggleSidebar}
                     >
                         {isSidebarOpen ? <FaTimes /> : <FaBars />}
@@ -168,7 +172,7 @@ const Navbar = () => {
 
             {/* Mobile Sidebar */}
             <div className={`
-                fixed inset-0 bg-black/50 z-[9999] 
+                fixed inset-0 bg-black/50 z-[99999] 
                 transition-opacity duration-300 ease-in-out h-full
                 ${isSidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}
                 md:hidden

@@ -22,7 +22,11 @@ const MainHome = () => {
                   <SharedTitle title='Looking out for those in need'/>
                 </div>
                 <p className='w-full lg:text-lg text-sm'>Join us in creating lasting impact through education, health, and sustainable development. Together, we can build a brighter future for those in need.</p>
-                <Button className='rounded-sm text-white bg-primary lg:w-2/5 w-3/5 flex self-start py-6 lg:mt-8 mt-4'>Donate for a cause</Button>
+                <Button className='rounded-sm text-white bg-primary lg:w-2/5 w-3/5 flex self-start py-6 lg:mt-8 mt-4'>
+                <Link href={'/donation'}>
+                  Donate for a cause
+                </Link>
+                  </Button>
                 <div className='flex items-center justify-start self-start gap-10 lg:mt-12 mt-6'>
                   <Link target='_blank' href={"https://www.facebook.com/profile.php?id=100063684874531"}>
                     <Button isIconOnly className='rounded-md border-2 border-white bg-transparent text-white'><FaFacebookF/></Button>

@@ -10,7 +10,7 @@ const Programs = () => {
             title: "Health",
             miniTitle: "Promoting Well-Being",
             description: "The Healthcare Program of the Vajra Foundation Nepal is dedicated to improving health outcomes in Nepal's remote mountain regions, where poverty, limited access to medical facilities, and inadequate living conditions contribute to a high burden of disease. Recognizing the urgent need for healthcare services, Vajra Foundation has been at the forefront of providing both immediate medical assistance and long-term preventive care to marginalized communities.",
-            image: "https://images.unsplash.com/photo-1599045118108-bf9954418b76?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvc3BpdGFsfGVufDB8fDB8fHwy",
+            image: "/health1.webp",
             icon: <FaHeart size={34} />,
             heading: {
                 h1: "Health Camps and Medical Assistance",
@@ -28,7 +28,7 @@ const Programs = () => {
             title: "Education",
             miniTitle: "Empowering Through Knowledge",
             description: "Education is a powerful tool for social transformation and a fundamental right for every child. Through our education initiatives, we focus on making quality education accessible to all, especially girls and children from marginalized communities. Our scholarship programs provide financial assistance to children who face barriers to continuing their education. Additionally, we equip schools with essential learning materials, from books and stationery to modern digital tools, creating an environment where students can excel. Teacher training workshops ensure educators are well-prepared to inspire and guide the next generation. Beyond formal education, we run community learning programs aimed at teaching vocational skills, literacy, and financial management to adults and youths. By fostering a love for learning and empowering individuals with knowledge, we are breaking the cycle of poverty and paving the way for a future of opportunity and growth.",
-            image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNjaG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+            image: "/sponsorleerlingen.webp",
             icon: <FaBook size={34} />,
             heading: {
                 h1: 'Scholarships and Sponsorships',
@@ -47,7 +47,7 @@ const Programs = () => {
         title: "Environment",
         miniTitle: "Preserving Nature",
         description: "At the Vajra Foundation Nepal, we believe that a healthy environment is key to sustainable development. Our environmental initiatives are designed to address critical ecological challenges, ranging from deforestation and waste management to promoting renewable energy solutions. By combining innovation with community involvement, we are actively working to protect Nepal's natural resources and ensure a greener future for generations to come.",
-        image: "https://images.unsplash.com/photo-1697992350862-acb64ab92414?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/env-3.webp",
         icon: <FaLeaf size={34}/> ,
         heading:{
             h1:'Solar Cooking: A Sustainable Solution for Rural Communities',

@@ -8,6 +8,7 @@ import { DiDotnet } from 'react-icons/di'
 import { FaArrowRight } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import Link from 'next/link'
 
 const Cause = () => {
     const [ref, inView] = useInView({
@@ -58,18 +59,19 @@ const Cause = () => {
                         <p className='text-gray-700 lg:text-base text-sm text-justify'>Promoting sustainable practices and conservation efforts to protect natural resources.</p>
                     </div>
                 </div>
-
-                <div className="group w-fit my-4">
-                    <Button 
-                        endContent={
-                        <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
-                        } 
-                        className='rounded-sm bg-primary px-8 my-2 text-white flex items-center' 
-                        aria-label="Details"
-                    >
-                        Details
-                    </Button>
-                </div>
+                <Link href={'/programs'}>
+                    <div className="group w-fit my-4">
+                        <Button 
+                            endContent={
+                            <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
+                            } 
+                            className='rounded-sm bg-primary px-8 my-2 text-white flex items-center' 
+                            aria-label="Details"
+                        >
+                                Details
+                        </Button>
+                    </div>
+                </Link>
 
                 {/* Image grid that fades in */}
                 <div ref={ref} className='grid grid-cols-2 lg:grid-cols-4 gap-10 items-center lg:my-8 mt-8'>

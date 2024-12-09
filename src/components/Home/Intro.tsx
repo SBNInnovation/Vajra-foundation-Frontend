@@ -1,6 +1,6 @@
 import LineDot from '@/shared/LineDot/LineDot'
 import SharedTitle from '@/shared/SharedTitle'
-import { Button } from '@nextui-org/react'
+import { Button, Link } from '@nextui-org/react'
 import Image from 'next/image'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
@@ -12,20 +12,25 @@ const Intro = () => {
             <SharedTitle title='See our details'/>
             <h1 className='text-3xl font-semibold tracking-wide'>Welcome to Vajra Foundations</h1>
             <LineDot/>
-            <p className='text-justify lg:w-[90%] w-full my-4 lg:text-base text-sm lg:leading-8 leading-6 text-gray-600'>Our foundation is driven by a deep commitment to improving lives in underserved communities. Focused on three vital pillars—health, education, and environmental sustainability—we work tirelessly to create meaningful and lasting change. By providing access to healthcare, advancing educational opportunities, and promoting sustainable environmental practices, we empower individuals and communities to thrive.
+            <p className='text-justify lg:w-[90%] w-full my-4 lg:text-base text-sm lg:leading-8 leading-6 text-gray-600'>
+              The Vajra Foundation Nepal supports the development of Nepal through projects in education, healthcare, and ecology. Our primary focus is on the impoverished mountain region of Sindhupalchowk. The Foundation designs and implements the projects, all aimed at progress and self-sufficiency. All staff members are volunteers.
 
-            With the support of our dedicated team, volunteers, and partners, we aim to build a world where everyone has the opportunity to lead healthier, more educated lives in harmony with a cleaner, greener planet. Together, we believe in the power of collective action to create a brighter future for all.
+Vajra builds schools, offers scholarships, and established its own private school in 2017, the Vajra Academy. The foundation has constructed numerous public water taps and latrines in remote mountain villages, and set up health posts to provide immediate medical assistance.  Vajra launched a community health development program focused on education and disease prevention. 
+
+Vajra Foundation Nepal was established as the sister organization of the Vajra Foundation, which was founded in 1997 by Maarten Olthof, a biologist, Buddhist, and organizer of spiritual journeys to India and Nepal.
             </p>
             <div className="group w-fit">
-              <Button 
-                endContent={
-                  <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
-                } 
-                className='rounded-sm bg-primary px-12 my-2 text-white flex items-center' 
-                aria-label="Learn more about us"
-              >
-                More about us
-              </Button>
+              <Link href='/about-us'>
+                <Button 
+                  endContent={
+                    <FaArrowRight className='transition duration-500 group-hover:translate-x-2' />
+                  } 
+                  className='rounded-sm bg-primary px-12 my-2 text-white flex items-center' 
+                  aria-label="Learn more about us"
+                >
+                  More about us
+                </Button>
+              </Link>
           </div>
 
         </section>

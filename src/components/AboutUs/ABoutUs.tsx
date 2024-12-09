@@ -40,15 +40,17 @@ const ABoutUs = () => {
                 <div className='absolute inset-0 bg-black/30'></div>
                 <h1 className='text-white font-bold text-6xl z-[99]'>About Vajra</h1>   
         </div>
-        <div className='w-full px-16 my-12'>
+        <div className='w-full px-16 mt-12'>
             <SharedTitle title='About Us'/>
             <h1 className='text-3xl font-semibold tracking-wide'>Vajra Foundation Nepal</h1>
             <div className='w-2/5'>
                 <LineDot/>
             </div>
-            <p className='text-justify my-8'>Our foundation is rooted in the belief that every individual deserves the opportunity to lead a healthy, educated, and fulfilling life in a sustainable environment. Guided by a commitment to meaningful impact, we address some of the most pressing challenges facing communities today: access to quality healthcare, inclusive education, and environmental sustainability. We work with local leaders, dedicated volunteers, and trusted partners to create programs that are not only impactful but also respectful of the communities we serve. </p>
-            <p className='text-justify '>In the health sector, we strive to bring essential medical services, health education, and preventive care to underserved areas, ensuring that even the most remote communities have access to life-saving support. Through our educational initiatives, we provide scholarships, training, and resources, empowering individuals with knowledge and skills that open doors to a brighter future. Recognizing the urgent need to protect our planet, we also lead efforts in environmental conservation, from reforestation projects to waste reduction campaigns, helping communities adopt sustainable practices that safeguard their natural resources.</p>
-            <p className='text-justify my-8'>Our work is driven by a shared vision of a better world—one where people are empowered, ecosystems are preserved, and sustainable development is a reality. With a passionate team and the support of our community, we are committed to building pathways for positive change, one step at a time. Together, we believe in creating a legacy of hope, resilience, and sustainable growth for future generations.</p>
+            <p className='text-justify mt-8'>The Vajra Foundation Nepal supports the development of Nepal through projects in education, healthcare, and ecology. Our primary focus is on the impoverished mountain region of Sindhupalchowk. The Foundation designs and implements the projects, all aimed at progress and self-sufficiency. All staff members are volunteers.
+
+<br /><br /> Vajra builds schools, offers scholarships, and established its own private school in 2017, the Vajra Academy. The foundation has constructed numerous public water taps and latrines in remote mountain villages, and set up health posts to provide immediate medical assistance.  Vajra launched a community health development program focused on education and disease prevention. 
+
+<br /><br /> Vajra Foundation Nepal was established as the sister organization of the Vajra Foundation, which was founded in 1997 by Maarten Olthof, a biologist, Buddhist, and organizer of spiritual journeys to India and Nepal.</p>
         </div>
         <div className="w-full px-4 md:px-16 py-12">
             <div className="w-full px^16 mx-auto">

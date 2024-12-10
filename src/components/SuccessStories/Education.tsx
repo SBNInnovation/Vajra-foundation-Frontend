@@ -2,11 +2,14 @@ import LineDot from '@/shared/LineDot/LineDot'
 import SharedTitle from '@/shared/SharedTitle'
 import React from 'react'
 import Image from 'next/image'
+import { Button } from '@nextui-org/react'
+import { CiGlobe } from 'react-icons/ci'
+import Link from 'next/link'
 
 const Education = () => {
   return (
     <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('https://images.unsplash.com/photo-1551892589-865f69869476?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/VajraDroneShot.jpg')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
                 <h1 className='text-white font-bold text-6xl z-[99]'>Our Success in Education</h1>   
         </div>
@@ -55,7 +58,12 @@ Unfortunately, the devastating 2015 earthquake severely damaged several schools,
 
 Vajra ensures that schools are handed over to the community during celebratory openings, with the local community managing them as government schools moving forward.
                 </p>
-                <h1 className='font-semibold text-2xl my-4 flex self-start'>The Vajra Academy</h1>
+                <div className='flex gap-4 items-center justify-start w-full'>
+                    <h1 className='font-semibold text-2xl my-4 flex self-start'>The Vajra Academy</h1>
+                    <Link href={'https://vajraacademy.edu.np/'} target='_blank'>
+                        <Button startContent={<CiGlobe size={20} className='text-white'/>} className='bg-primary text-white rounded-sm shadow-md px-8' size='md'>Visit the website</Button>
+                    </Link>
+                </div>
                 <p className='text-justify text-lg leading-10 text-gray-700'>
 
                   <strong>Opening of the Vajra Academy in 2007.</strong> 

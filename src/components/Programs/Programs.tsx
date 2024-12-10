@@ -3,6 +3,9 @@ import React from 'react'
 import Image from 'next/image';
 import LineDot from '@/shared/LineDot/LineDot';
 import { FaBook, FaHeart, FaLeaf } from 'react-icons/fa';
+import Link from 'next/link';
+import { Button } from '@nextui-org/react';
+import { CiGlobe } from 'react-icons/ci';
 
 const Programs = () => {
     const areasOfHelp = [
@@ -94,7 +97,16 @@ const Programs = () => {
                         <p className='text-gray-700 text-justify leading-7'>{area?.content?.[0]}</p>
                         <h1 className='font-semibold text-xl my-4'>{area?.heading?.h2}</h1>
                         <p className='text-gray-700 text-justify leading-7'>{area?.content?.[1]}</p>
-                        <h1 className='font-semibold text-xl my-4'>{area?.heading?.h3}</h1>
+                        {area?.heading?.h3 && area.heading?.h3 === "The Vajra Academy"?(
+                            <div className='flex gap-4 items-center justify-start w-full'>
+                                <h1 className='font-semibold text-2xl my-4 flex self-start'>The Vajra Academy</h1>
+                                <Link href={'https://vajraacademy.edu.np/'} target='_blank'>
+                                    <Button startContent={<CiGlobe size={20} className='text-white'/>} className='bg-primary text-sm text-white rounded-sm shadow-md px-8' size='md'>Visit the website</Button>
+                                </Link>
+                            </div>
+                            ):(
+                                <h1 className='font-semibold text-xl my-4'>{area?.heading?.h3}</h1>
+                        )}
                         <p className='text-gray-700 text-justify leading-7'>{area?.content?.[2]}</p>
                         {area?.heading?.h4 && (
                                 <h1 className='font-semibold text-xl my-4'>{area?.heading?.h4}</h1>

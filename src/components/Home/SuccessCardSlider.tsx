@@ -62,28 +62,25 @@ const SuccessCardSlider: React.FC = () => {
 
     const successStories = [
         {
-            "image": "/health.avif",
+            "image": "/Health1.webp",
             "category": "Health",
             "title": "Bringing Healthcare to Remote Villages",
-            "description": "Through our mobile clinics, we have provided essential healthcare services to over 2,000 people in remote areas, improving their quality of life and health outcomes."
+            "description": "Through our mobile clinics, we have provided essential healthcare services to over 2,000 people in remote areas, improving their quality of life and health outcomes.",
+            'link':'/success-stories/health'
         },
         {
-            "image": "/edu.avif",
+            "image": "/VajraDroneShot.jpg",
             "category": "Education",
-            "title": "Empowering Girls Through Education",
-            "description": "Our scholarship program has helped 500 girls continue their education, giving them the tools they need to break the cycle of poverty and achieve their dreams."
+            "title": "Empowering Education with Sponshorships",
+            "description": "Our scholarship program has helped 500 girls continue their education, giving them the tools they need to break the cycle of poverty and achieve their dreams.",
+            'link':'/success-stories/education'
         },
         {
-            "image": "/intro.avif",
+            "image": "/env-4.webp",
             "category": "Environment",
-            "title": "Restoring Forests, Rebuilding Communities",
-            "description": "With community support, we have planted 10,000 trees, restoring local forests and empowering communities to protect their natural resources."
-        },
-        {
-            "image": "/medical.avif",
-            "category": "Health",
-            "title": "Access to Clean Water for All",
-            "description": "Our clean water project has provided safe drinking water to 1,000 families, reducing waterborne illnesses and improving overall health."
+            "title": "Sustainable Solar Panels",
+            "description": "With community support, we have planted 10,000 trees, restoring local forests and empowering communities to protect their natural resources.",
+            'link':'/success-stories/environment'
         }
     ]
 

@@ -23,7 +23,7 @@ const Health = () => {
             </p>
             <div className='flex gap-8 w-full'>
                 <div className='w-1/2 h-[400px]'>
-                    <Image src={'/health1.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
+                    <Image src={'/Health1.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
                 </div>
                 <p className='w-1/2 text-justify text-lg leading-10 text-gray-700'>
                     In 1998, Dutch physician Dr. Henk Becker volunteered at Vajra&apos;s first health camp in Sindhupalchowk. He documented common health issues and identified prevention strategies. This led to several initiatives, such as constructing latrines and clean water points to combat waterborne diseases. Local &quot;water committees&quot; were also formed to maintain these resources.

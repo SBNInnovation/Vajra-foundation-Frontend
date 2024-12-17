@@ -32,7 +32,7 @@ const Education = () => {
 <br /> <br /> One unique aspect of this sponsorship program is the personal connection between donors and students. Donors are informed about the specific child they are supporting and often maintain direct communication with the students and their families, following their academic progress with great interest. The sponsorship commitment is typically for a minimum of five years, ensuring that students can complete their education. This personalized approach enriches the experience for both the donors and the students.
             </p>
             <div className='w-4/5 h-[500px]'>
-                    <Image src={'/sponsorleerlingen.jpg.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
+                    <Image src={'/edu.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
                 </div>
 
             <h1 className='font-semibold text-2xl my-4 flex self-start'>Students at the Vajra Hostel in Kathmandu</h1>

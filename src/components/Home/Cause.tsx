@@ -24,7 +24,7 @@ const Cause = () => {
     return (
         <main className='w-full relative lg:px-16 px-4 py-8 h-auto flex flex-col-reverse lg:flex-row items-start justify-center gap-16 bg-[#F5FAF1]'>
             <div className='lg:w-2/5 w-full lg:h-[700px] h-[400px] lg:flex hidden'>
-                <Image src={"/medical.avif"} alt='Cause' height={1000} width={1000} className='object-cover h-full w-full rounded-sm shadow-md'/>
+                <Image src={"/VajraDroneShot.jpg"} alt='Cause' height={1000} width={1000} className='object-cover h-full w-full rounded-sm shadow-md'/>
             </div>
             <div className='lg:w-3/5 w-full relative'>
                 <SharedTitle title='A Help to those who need it'/>
@@ -83,7 +83,7 @@ const Cause = () => {
                         animate={inView ? 'visible' : 'hidden'}
                         transition={{ duration: 0.5, delay: 0.1 }}
                     >
-                        <Image src={"/edu.avif"} alt='education' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
+                        <Image src={"/edu.webp"} alt='education' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
                         <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <span className='text-white font-semibold text-lg'>Education</span>
                         </div>
@@ -97,7 +97,7 @@ const Cause = () => {
                         animate={inView ? 'visible' : 'hidden'}
                         transition={{ duration: 0.5, delay: 0.3 }}
                     >
-                        <Image src={"/health.avif"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
+                        <Image src={"/Health1.webp"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
                         <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <span className='text-white font-semibold text-lg'>Health</span>
                         </div>
@@ -111,7 +111,7 @@ const Cause = () => {
                         animate={inView ? 'visible' : 'hidden'}
                         transition={{ duration: 0.5, delay: 0.5 }}
                     >
-                        <Image src={"/intro.avif"} alt='environment' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
+                        <Image src={"/env-3.webp"} alt='environment' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
                         <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <span className='text-white font-semibold text-lg'>Environment</span>
                         </div>
@@ -125,7 +125,7 @@ const Cause = () => {
                         animate={inView ? 'visible' : 'hidden'}
                         transition={{ duration: 0.5, delay: 0.7 }}
                     >
-                        <Image src={"/medical.avif"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
+                        <Image src={"/spon-edu-3.webp"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
                         <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <span className='text-white font-semibold text-lg'>Health</span>
                         </div>

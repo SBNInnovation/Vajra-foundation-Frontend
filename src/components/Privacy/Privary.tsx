@@ -7,7 +7,7 @@ const Privary = () => {
     <>
     <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
-                <h1 className='text-white font-bold lg:text-6xl text-4xl z-[99]'>Privacy and Policies</h1>   
+                <h1 className='text-white font-bold lg:text-6xl text-4xl z-[99]'>Plans and Policies</h1>   
         </div>
         <div className='flex items-center justify-center flex-col gap-4 px-16 mt-12'>
           <div className='flex items-center justify-center w-fit'>

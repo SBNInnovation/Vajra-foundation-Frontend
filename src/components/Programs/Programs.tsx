@@ -13,7 +13,7 @@ const Programs = () => {
             title: "Health",
             miniTitle: "Promoting Well-Being",
             description: "The Healthcare Program of the Vajra Foundation Nepal is dedicated to improving health outcomes in Nepal's remote mountain regions, where poverty, limited access to medical facilities, and inadequate living conditions contribute to a high burden of disease. Recognizing the urgent need for healthcare services, Vajra Foundation has been at the forefront of providing both immediate medical assistance and long-term preventive care to marginalized communities.",
-            image: "/health1.webp",
+            image: "/Health1.webp",
             icon: <FaHeart size={34} />,
             heading: {
                 h1: "Health Camps and Medical Assistance",

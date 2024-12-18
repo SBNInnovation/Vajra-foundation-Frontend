@@ -6,7 +6,7 @@ import React from 'react'
 const Health = () => {
   return (
     <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('https://images.unsplash.com/photo-1551892589-865f69869476?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/h3.webp')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
                 <h1 className='text-white font-bold text-6xl z-[99]'>Our Success in Health</h1>   
         </div>

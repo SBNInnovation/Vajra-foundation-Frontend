@@ -36,7 +36,7 @@ const ABoutUs = () => {
     ];
     return (
         <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{backgroundImage:"url('https://plus.unsplash.com/premium_photo-1681140560943-1c1736109b78?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{backgroundImage:"url('https://images.unsplash.com/photo-1584324127278-b0ad4aba28b4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGxhbnQlMjB0cmVlc3xlbnwwfHwwfHx8Mg%3D%3D')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
                 <h1 className='text-white font-bold text-6xl z-[99]'>About Vajra</h1>   
         </div>

@@ -72,23 +72,23 @@ const Programs = () => {
 
   return (
     <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('https://images.unsplash.com/photo-1668709078432-b4e07f7e63c5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmdvfGVufDB8fDB8fHwy')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('https://images.unsplash.com/photo-1668709078432-b4e07f7e63c5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmdvfGVufDB8fDB8fHwy')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
-                <h1 className='text-white font-bold text-6xl z-[99]'>Our Programs</h1>   
+                <h1 className='text-white font-bold lg:text-6xl text-4xl z-[99]'>Our Programs</h1>   
         </div>
         <div className='flex flex-col gap-6'>
             {areasOfHelp.map((area, index) => (
                 <>
-                <div key={index} className='px-16 my-12'>
-                    <section  className='flex items-start justify-center gap-12 w-full '>
-                        <div className=' w-1/2 flex flex-col'>
+                <div key={index} className='lg:px-16 px-4 lg:my-12 my-4'>
+                    <section  className='flex lg:flex-row flex-col items-start justify-center gap-12 w-full '>
+                        <div className=' lg:w-1/2 w-full flex flex-col'>
                             <SharedTitle title={area.title}/>
-                            <h1 className={` font-semibold text-4xl`}>{area.miniTitle}</h1>
+                            <h1 className={` font-semibold lg:text-4xl text-2xl`}>{area.miniTitle}</h1>
                             <LineDot className='justify-start'/>
                             <p className='text-gray-700 text-justify'>{area.description}</p>
                         </div>
-                        <div className='w-1/2 relative'>
-                            <div className='size-[4rem] absolute z-[10] top-1/2 -left-8 text-white bg-primary rounded-full shadow-md p-4'>{area.icon}</div>
+                        <div className='lg:w-1/2 w-full relative'>
+                            <div className='size-[4rem] absolute z-[10] top-1/2 lg:flex hidden -left-8 text-white bg-primary rounded-full shadow-md p-4'>{area.icon}</div>
                             <Image src={area.image} alt={area.title} height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-md group'/>
                         </div>
                     </section>

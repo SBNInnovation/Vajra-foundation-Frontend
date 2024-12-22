@@ -90,8 +90,8 @@ const AboutSlider = () => {
             <div className='w-1/5'>
                 <LineDot/>
             </div>
-            <section className='flex gap-4 items-start w-full mt-12 mb-8'>
-                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+            <section className='flex lg:flex-row flex-col gap-4 items-start w-full mt-12 mb-8'>
+                <div className='lg:w-1/3 w-full bg-white rounded-sm shadow-lg px-8 py-4'>
                     <SharedTitle title='National Members'/>
                     <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
                     <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
@@ -99,7 +99,7 @@ const AboutSlider = () => {
                         <Button size='sm' className='text-xs rounded-sm bg-primary px-8 my-2 mb-4 text-white '>Reach Now</Button>
                     </Link>
                 </div>
-                <div className='w-2/3'>
+                <div className='lg:w-2/3 w-full'>
                     <div className="relative w-full">
                         <Slider {...settings}>
                             {national.map((item, index) => (
@@ -122,8 +122,8 @@ const AboutSlider = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex gap-4 items-start w-full my-8'>
-                <div className='w-2/3'>
+            <section className='flex lg:flex-row flex-col-reverse gap-4 items-start w-full my-8'>
+                <div className='lg:w-2/3 w-full'>
                     <div className="relative w-full">
                         <Slider {...settings}>
                             {national.map((item, index) => (
@@ -145,7 +145,7 @@ const AboutSlider = () => {
                         </Slider>
                     </div>
                 </div>
-                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+                <div className='lg:w-1/3 w-full bg-white rounded-sm shadow-lg px-8 py-4'>
                     <SharedTitle title='International Members'/>
                     <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
                     <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
@@ -154,8 +154,8 @@ const AboutSlider = () => {
                     </Link>
                 </div>
             </section>
-            <section className='flex gap-4 items-start w-full my-8'>
-                <div className='w-1/3 h-[300px] bg-white rounded-sm shadow-lg px-8 py-4'>
+            <section className='flex lg:flex-row flex-col gap-4 items-start w-full my-8'>
+                <div className='lg:w-1/3 w-full bg-white rounded-sm shadow-lg px-8 py-4'>
                     <SharedTitle title='Volunteers'/>
                     <p className='text-justify text-sm'>Our core team within the country works tirelessly to design, implement, and oversee local projects. They understand the challenges and strengths within each community we serve, ensuring our initiatives are impactful and culturally relevant.</p>
                     <p className='mt-12 font-semibold text-xs'>Do you want to become a member ?</p>
@@ -163,7 +163,7 @@ const AboutSlider = () => {
                         <Button size='sm' className='text-xs rounded-sm bg-primary px-8 my-2 mb-4 text-white '>Reach Now</Button>
                     </Link>
                 </div>
-                <div className='w-2/3'>
+                <div className='lg:w-2/3 w-full'>
                     <div className="relative w-full">
                         <Slider {...settings}>
                             {national.map((item, index) => (

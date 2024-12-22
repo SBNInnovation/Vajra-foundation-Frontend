@@ -36,11 +36,11 @@ const ABoutUs = () => {
     ];
     return (
         <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{backgroundImage:"url('https://images.unsplash.com/photo-1584324127278-b0ad4aba28b4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGxhbnQlMjB0cmVlc3xlbnwwfHwwfHx8Mg%3D%3D')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{backgroundImage:"url('https://images.unsplash.com/photo-1584324127278-b0ad4aba28b4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGxhbnQlMjB0cmVlc3xlbnwwfHwwfHx8Mg%3D%3D')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
-                <h1 className='text-white font-bold text-6xl z-[99]'>About Vajra</h1>   
+                <h1 className='text-white font-bold lg:text-6xl text-4xl z-[99]'>About Vajra</h1>   
         </div>
-        <div className='w-full px-16 mt-12'>
+        <div className='w-full lg:px-16 px-4 mt-12'>
             <SharedTitle title='About Us'/>
             <h1 className='text-3xl font-semibold tracking-wide'>Vajra Foundation Nepal</h1>
             <div className='w-2/5'>
@@ -52,7 +52,7 @@ const ABoutUs = () => {
 
 <br /><br /> Vajra Foundation Nepal was established as the sister organization of the Vajra Foundation, which was founded in 1997 by Maarten Olthof, a biologist, Buddhist, and organizer of spiritual journeys to India and Nepal.</p>
         </div>
-        <div className="w-full px-4 md:px-16 py-12">
+        <div className="w-full px-4 md:px-16 sm:px-0 py-12">
             <div className="w-full px^16 mx-auto">
                 <SharedTitle title="Little Steps" />
                 <h1 className="text-2xl md:text-3xl font-semibold tracking-wide mb-6">
@@ -92,10 +92,10 @@ const ABoutUs = () => {
             </div>
         </div>
         <AboutSlider/>
-        <div className="w-full my-20 mt-32 flex justify-center relative px-16">
-                <div className="relative w-full h-[600px] mb-12 flex gap-12">
+        <div className="w-full my-20 mt-32 flex justify-center relative lg:px-16 px-4">
+                <div className="relative w-full lg:h-[600px] h-auto mb-12 flex flex-col lg:flex-row lg:gap-12 gap-4">
                     
-                    <div className="w-1/2">
+                    <div className="lg:w-1/2 w-full">
                         <div className='w-full h-[200px] mb-12'>
                             <Image 
                                 src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
@@ -115,7 +115,7 @@ const ABoutUs = () => {
                         </p>
                     </div>
 
-                    <div className="w-1/2">
+                    <div className="lg:w-1/2 w-full">
                         <SharedTitle title="Our Story" />
                         <h1 className="text-3xl font-semibold tracking-wide">Our Story</h1>
                         <div className="w-4/5">
@@ -137,11 +137,11 @@ const ABoutUs = () => {
                 </div>
             </div>
                 
-            <div className='h-[400px] relative mb-12 mx-16 rounded-md' style={{backgroundImage:"url('https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
+            <div className='h-[500px] relative mb-12 lg:mx-16 mx-4 rounded-md flex items-center justify-center flex-col' style={{backgroundImage:"url('https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/50 rounded-md'></div>
-                <div className='z-[100] absolute w-full h-fit my-12  flex flex-col items-center justify-center'>
-                    <h1 className="text-5xl font-bold text-white tracking-wide">Make a difference today</h1>
-                    <p className='text-justify my-8 text-white w-3/4'>Your support has the power to change lives and uplift communities. By contributing, you&apos;re not just giving resources; you&apos;re giving hope, health, and opportunity to those who need it most. Our organization is committed to using every donation to make a tangible impact, funding essential projects in healthcare, education, and environmental preservation. Whether it&apos;s providing meals to families, enabling education for children, or supporting sustainable practices, your generosity fuels positive change.
+                <div className='z-[100] px-4 absolute w-full h-fit my-12  flex flex-col items-center justify-center'>
+                    <h1 className="lg:text-5xl text-xl font-bold text-white tracking-wide">Make a difference today</h1>
+                    <p className='text-justify lg:text-base text-xs my-8 text-white lg:w-3/4 w-full'>Your support has the power to change lives and uplift communities. By contributing, you&apos;re not just giving resources; you&apos;re giving hope, health, and opportunity to those who need it most. Our organization is committed to using every donation to make a tangible impact, funding essential projects in healthcare, education, and environmental preservation. Whether it&apos;s providing meals to families, enabling education for children, or supporting sustainable practices, your generosity fuels positive change.
 
                     Every gift, no matter the size, is a step toward a brighter, more equitable future. Join us in our mission to create lasting change—donate today and become part of a global community dedicated to a better tomorrow.
                     </p>

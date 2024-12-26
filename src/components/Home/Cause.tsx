@@ -97,7 +97,7 @@ const Cause = () => {
                         animate={inView ? 'visible' : 'hidden'}
                         transition={{ duration: 0.5, delay: 0.3 }}
                     >
-                        <Image src={"/Health1.webp"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
+                        <Image src={"/DSCN5192.jpg"} alt='health' height={1000} width={1000} className='object-cover h-full w-full shadow-md rounded-sm'/>
                         <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <span className='text-white font-semibold text-lg'>Health</span>
                         </div>

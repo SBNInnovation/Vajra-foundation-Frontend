@@ -6,7 +6,7 @@ import React from 'react'
 const Health = () => {
   return (
     <>
-        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/h3.webp')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover"}}>
+        <div className='w-full flex items-center justify-center h-[60vh] relative' style={{background:"url('/IMG_1785.jpg')",backgroundAttachment:"scroll",backgroundPosition:"top",backgroundSize:"cover"}}>
                 <div className='absolute inset-0 bg-black/30'></div>
                 <h1 className='text-white font-bold lg:text-6xl text-xl z-[99]'>Our Success in Health</h1>   
         </div>
@@ -23,7 +23,7 @@ const Health = () => {
             </p>
             <div className='flex lg:flex-row flex-col gap-4 lg:gap-8 w-full'>
                 <div className='lg:w-1/2 w-full h-[300px] lg:h-[400px]'>
-                    <Image src={'/Health1.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
+                    <Image src={'/DSCN5192.jpg'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
                 </div>
                 <p className='lg:w-1/2 w-full text-justify lg:text-lg text-sm lg:leading-10 leading-6 text-gray-700'>
                     In 1998, Dutch physician Dr. Henk Becker volunteered at Vajra&apos;s first health camp in Sindhupalchowk. He documented common health issues and identified prevention strategies. This led to several initiatives, such as constructing latrines and clean water points to combat waterborne diseases. Local &quot;water committees&quot; were also formed to maintain these resources.
@@ -42,10 +42,10 @@ Vajra also focused on addressing indoor air pollution caused by traditional cook
                 </p>
             <div className='flex lg:flex-row flex-col gap-4 w-full'>
                 <div className='lg:w-1/2 w-full lg:h-[500px] h-[300px]'>
-                    <Image src={'/h2.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
+                    <Image src={'/post.jpg'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
                 </div>
                 <div className='lg:w-1/2 w-full lg:h-[500px] h-[300px]'>
-                    <Image src={'/h3.webp'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
+                    <Image src={'/healthpost.jpg'} alt='Health' height={1000} width={1000} className='object-cover h-full w-full rounded-md shadow-md'/> 
                 </div>
                 
             </div>

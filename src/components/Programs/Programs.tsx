@@ -31,7 +31,7 @@ const Programs = () => {
             title: "Education",
             miniTitle: "Empowering Through Knowledge",
             description: "Education is a powerful tool for social transformation and a fundamental right for every child. Through our education initiatives, we focus on making quality education accessible to all, especially girls and children from marginalized communities. Our scholarship programs provide financial assistance to children who face barriers to continuing their education. Additionally, we equip schools with essential learning materials, from books and stationery to modern digital tools, creating an environment where students can excel. Teacher training workshops ensure educators are well-prepared to inspire and guide the next generation. Beyond formal education, we run community learning programs aimed at teaching vocational skills, literacy, and financial management to adults and youths. By fostering a love for learning and empowering individuals with knowledge, we are breaking the cycle of poverty and paving the way for a future of opportunity and growth.",
-            image: "/sponsorleerlingen.webp",
+            image: "/edu.webp",
             icon: <FaBook size={34} />,
             heading: {
                 h1: 'Scholarships and Sponsorships',

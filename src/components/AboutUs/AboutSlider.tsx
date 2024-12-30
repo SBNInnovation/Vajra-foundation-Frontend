@@ -73,7 +73,7 @@ const AboutSlider = () => {
             title:"Kamal Bhandari (Vice Chairman)"
         },
         {
-            img:"/national/treasurer.jpg",
+            img:"/national/Treasurer.jpg",
             title:"Deepak Kumar Basnet (Treasurer)"
         }
 
@@ -117,7 +117,7 @@ const AboutSlider = () => {
                                             height={1000} 
                                             width={1000} 
                                             alt={item.title}
-                                            className='w-full h-full object-cover rounded-sm' 
+                                            className='w-full h-full object-contain rounded-sm' 
                                         />
                                         <div className='absolute z-[100] bottom-0 w-full text-white bg-black/80 px-6 py-2 '>
                                             <h1>{item.title}</h1>

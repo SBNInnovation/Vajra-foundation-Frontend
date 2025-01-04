@@ -18,9 +18,9 @@ const Donation = () => {
                 <LineDot/>
                 <p>You can send direct help to Vajra Foundations Nepal. You can also make a donation to our cause.</p>
                 <h1 className='font-semibold text-2xl my-8'>Funds to be sent to:</h1>
-                <p>Bank Name: <span className='font-semibold'>Siddhartha Bank Private Limited</span> </p>
+                <p>Bank Name: <span className='font-semibold'>Everest Bank, Thamel Branch</span> </p>
                 <p className='my-6'>Account Name: <span className='font-semibold'>Vajra Foundations Nepal</span> </p>
-                <p>Account Number: <span className='font-semibold'>00405901278302</span> </p>
+                <p>Account Number: <span className='font-semibold'>03500105200030</span> </p>
             </div>
             <div className='lg:w-1/2 w-full'>
                 <Image src={"https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} alt='Donation' height={1000} width={1000} className='object-cover h-full w-full rounded-sm shadow-md'/>

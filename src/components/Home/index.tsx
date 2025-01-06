@@ -20,7 +20,7 @@ const MainHome = () => {
         />
         <meta
           name="keywords"
-          content="Vajra Foundation Nepal, education, health, sustainable development, NGO, Nepal"
+          content="Vajra Foundation Nepal, vajra, foundation, vajra foundation nepal, education, health, sustainable development, NGO, Nepal"
         />
         <meta name="author" content="Vajra Foundation Nepal" />
         

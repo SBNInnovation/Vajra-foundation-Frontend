@@ -12,7 +12,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Vajra Foundation Nepal, education, health, sustainable development, NGO, Nepal"
+          content="Vajra Foundation Nepal, vajra, foundation, vajra foundation nepal, education, health, sustainable development, NGO, Nepal"
         />
         <meta name="author" content="Vajra Foundation Nepal" />
         
@@ -25,6 +25,9 @@ export default function Home() {
         <meta property="og:url" content="https://vajrafoundationnepal.org/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://vajrafoundationnepal.org/path-to-image.jpg" />
+
+        {/* google */}
+        <meta name="google-site-verification" content="wdJoyFJtX9xiBSfsVzqqZH1Weu7GrEDDfFKnqOU0zAo" />
         
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />

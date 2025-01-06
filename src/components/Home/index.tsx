@@ -7,10 +7,46 @@ import Cause from './Cause'
 import Impact from './Impact'
 import Success from './Success'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const MainHome = () => {
   return (
     <>
+      <Head>
+        <title>Vajra Foundation Nepal - Empowering Communities</title>
+        <meta
+          name="description"
+          content="Join Vajra Foundation Nepal in creating lasting impact through education, health, and sustainable development in Nepal."
+        />
+        <meta
+          name="keywords"
+          content="Vajra Foundation Nepal, education, health, sustainable development, NGO, Nepal"
+        />
+        <meta name="author" content="Vajra Foundation Nepal" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Vajra Foundation Nepal - Empowering Communities" />
+        <meta
+          property="og:description"
+          content="Join Vajra Foundation Nepal in creating lasting impact through education, health, and sustainable development in Nepal."
+        />
+        <meta property="og:url" content="https://vajrafoundationnepal.org/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://vajrafoundationnepal.org/path-to-image.jpg" />
+        
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Vajra Foundation Nepal - Empowering Communities" />
+        <meta
+          name="twitter:description"
+          content="Join Vajra Foundation Nepal in creating lasting impact through education, health, and sustainable development in Nepal."
+        />
+        <meta name="twitter:image" content="https://vajrafoundationnepal.org/path-to-image.jpg" />
+        
+        {/* Viewport Meta Tag */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+
       <div className='w-full lg:h-[95vh] h-[70vh] relative' style={{background:"url('/edu2.avif')",backgroundAttachment:"scroll",backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
       <div className='absolute inset-0 bg-black/20'></div>
         <section className='relative w-full lg:top-[30%] top-[20%] lg:px-24 px-4 flex gap-12'>

@@ -34,6 +34,9 @@ const MainHome = () => {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://vajrafoundationnepal.org/path-to-image.jpg" />
         
+         {/* google */}
+         <meta name="google-site-verification" content="wdJoyFJtX9xiBSfsVzqqZH1Weu7GrEDDfFKnqOU0zAo" />
+
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Vajra Foundation Nepal - Empowering Communities" />

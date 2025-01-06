@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Vajra Foundation Nepal - Empowering Communities</title>
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
           content="Join Vajra Foundation Nepal in creating lasting impact through education, health, and sustainable development in Nepal."

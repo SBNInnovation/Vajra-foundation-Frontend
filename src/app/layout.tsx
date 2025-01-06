@@ -4,7 +4,6 @@ import { Provider } from "@/providers/providers";
 import Navbar from "@/shared/Navbar";
 import { Poppins } from 'next/font/google';
 import Footer from "@/shared/Footer/Footer";
-import Head from "next/head";
 
 
 const poppins = Poppins({
@@ -25,13 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-[#F5FAF1]">
-      <Head>
-        {/* Add Google Site Verification Meta Tag */}
-        <meta
-          name="google-site-verification"
-          content="wdJoyFJtX9xiBSfsVzqqZH1Weu7GrEDDfFKnqOU0zAo"
-        />
-        </Head>
       <body
         className={`${poppins.className} antialiased bg-[#F5FAF1] text-black`}
       >

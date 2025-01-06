@@ -25,16 +25,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-[#F5FAF1]">
-      <body
-        className={`${poppins.className} antialiased bg-[#F5FAF1] text-black`}
-      >
-        <Head>
+      <Head>
         {/* Add Google Site Verification Meta Tag */}
         <meta
           name="google-site-verification"
           content="wdJoyFJtX9xiBSfsVzqqZH1Weu7GrEDDfFKnqOU0zAo"
         />
         </Head>
+      <body
+        className={`${poppins.className} antialiased bg-[#F5FAF1] text-black`}
+      >
         <Provider>
           <Navbar/>
           {children}
